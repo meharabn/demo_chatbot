@@ -4,13 +4,13 @@ from telegram.ext import Updater, MessageHandler, Filters
 import logging
 
 # Replace "YOUR-API-KEY" with your own API key
-openai.api_key = "sk-Kc2AbudJvcorINtOLDmGT3BlbkFJQcg512346644yActfxZ"
+openai.api_key = "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"
 
 # Create a new bot using the API key and token you obtained earlier
-bot = telegram.Bot("5888508845:AAEdzhuGT3BlbkFJp1sQuYVA-zVa7gbIQ")
+bot = telegram.Bot("5959766228:AAErYEneluoPfuaFNRy1eSq_ZwpHfBbQuJw")
 
 # Set up the bot to listen for messages
-updater = Updater("5888508845:AAEdjqGT3BlbkFJ1sQuYVA-zVa7gbIQ", use_context=True)
+updater = Updater("5959766228:AAErYEneluoPfuaFNRy1eSq_ZwpHfBbQuJw", use_context=True)
 dispatcher = updater.dispatcher
 
 # Define a function that generates a response to a user message using GPT-3
